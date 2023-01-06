@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/image/day-2.jpg">
+    <title>WEB-DAY2-CSS</title>
+    <style>
+        *{
+            background-color: rgb(211, 211, 211);
+            font-weight: 700;
+            font-family: sans-serif;
+            margin: 5px 10px 15px 20px ;
+            border: 5px solid #ddd;
+        }
+        .id,.class{
+            list-style-type: none;
+        }
+        .box-model{
+            border: 5px solid black;
+            width: 50%;
+            border-radius: 50%;
+            padding: 50px;
+            margin: auto;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        header{
+            background-image: url("image/day2.jpg");
+            padding: 200px;
+            background-blend-mode: multiply;
+            
+
+        }
+        h1{
+            border: 2px dashed #0c223b;
+            border-radius: 50%;
+            
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <h1 style="text-align: center;">WEB-DAY2-CSS</h1>
+    <p><span style="color: red; font-size: 30px;">CSS</span> -Cascading Style Sheete</p>
+    <p><span style="color: red; font-size: 30px;">Syntax</span>- selector{property: velue;}</p>
+    <div>
+        <p><span style="color: red; font-size: 30px;">Inline</span>- style within a line.</p>
+        <p><span style="color: red; font-size: 30px;"></span>Embdeed internal- style  within the head section.</p>
+        <p><span style="color: red; font-size: 30px;"></span>External- styles are defined within the link element, inside the head section of an HTML page:</p>
+    </div>
+    <h3><span style="color: red; font-size: 30px;">Selectors</span>-</h3>
+    <ol>
+        <li>Simple selectors- name,id,class.
+            <ul>
+                <li class="id">id-
+                    <ul>
+                        <li>selects single elements</li>
+                        <li># simble</li>
+                        <li>can mark a single element within a page.</li>
+                    </ul>
+                    
+                </li>
+                <li class="class">class-
+                    <ul>
+                        <li>selects group of element</li>
+                        <li>. simble</li>
+                        <li>can mark multiple elements within a page.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Combinator selectors- specific relation between elements.</li>
+        <li>Universal selectors- selects all HTML elements on the page.</li>
+        <li>Attribute selectors- attribute ,attribute value.</li>
+        <li>Mixed selectors- span to style a small part of element tag.</li>
+        <li>Multiple selectors- (.class1.class2)</li>
+    </ol>
+    <h3><span style="color: red; font-size: 30px;">Properties</span></h3>
+    <ul>
+        <li>color- color name,rgb,rgba,hex</li>
+        <li>font-size- (1px)</li>
+        <li>font-weight</li>
+        <li>font</li>
+        <li>font-family</li>
+        <li>width (px,%)</li>
+        <li>height (px,%)</li>
+        <li>text-align</li>
+        <li>border-
+            <ul>
+                <li>width (1px)</li>
+                <li>border-style
+                    <ul>
+                        <li>sollid</li>
+                        <li>dotted</li>
+                        <li>dashed</li>
+                        <li>none</li>
+                    </ul>
+                </li>
+                <li>border-radious</li>
+            </ul>
+        <li>padding</li>
+        <li>margin</li>
+        <li>background</li>
+        <li>background-image</li>
+        <li>background-repeat-
+            <ul>
+                <li>reapet-x</li>
+                <li>reapet-y</li>
+                <li>space</li>
+                <li>round</li>
+                <li>no-reapet</li>
+                <li>space-repeat</li>
+            </ul>
+        </li>
+        <li>background-size-
+            <ul>
+                <li>contain</li>
+                <li>% (30%)</li>
+                <li>px</li>
+                <li>cover</li>
+            </ul>
+        </li>
+        <li>background-position</li>
+        <li>background-position-x</li>
+        <li>background-position-y</li>
+        <li>background-blend-mode-
+            <li>normal</li>
+            <li>multiply</li>
+            <li>hard-light</li>
+            <li>difference</li>
+        </li>
+        <li>display-
+            <ul>
+                <li>block</li>
+                <li>inline</li>
+                <li>inlline-block</li>
+                <li>none</li>
+            </ul>
+        </li>
+    </ul>
+    <h3><span style="color: red; font-size: 30px;">Box-Model CSS </span> </h3>
+    
+    <div class="box-model">
+        Web Development
+    </div>
+
+</body>
+</html>
